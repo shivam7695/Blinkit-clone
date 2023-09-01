@@ -1,0 +1,180 @@
+.leftborder{
+    border-left: 1px solid rgb(10, 4, 4);
+}
+.cart{
+    border: 1px solid;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 112px;
+    height: 52px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #0c831f;
+}
+.search{
+    border:1px solid rgb(17, 5, 5);
+    border-radius: 5px;
+    width: 40vw;
+    height: 40px;
+    
+}
+.my-category{
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+}
+.searchbar{
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+.my1container , .my-container{
+    margin: auto;
+    width: 90%;
+    overflow-x: scroll;
+
+}
+.my-list{
+    white-space: nowrap;
+    
+}
+.my-list>img{
+  padding-inline: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+    
+
+.btns{
+    color: #0c831f;
+    width: 25%;
+   margin: auto;
+   padding: 5px;
+    border: 1px solid green;
+ border-radius: 5px;
+}
+
+
+
+ 
+  
+  .image{
+    margin: auto;
+    width: 85%;
+  }
+  .card-title{
+    width: 100%;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .card-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+  
+
+  .card-time{
+    width: fit-content  ;
+    border-radius: 4px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);;
+  }
+  .foottext{
+    width: 35%;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #666666;
+  }
+  .app{
+    width: 35%;
+  }
+  .social{
+    width: 30%;
+  }
+  .myfooter{
+    margin: auto;
+    width: 85%;
+   
+    
+  }
+  
+
+  
+  .foot{
+    margin: auto;
+    width: 85%;
+    
+  }
+  .lower{
+    color: #666666;
+    text-align: justify;
+  }
+  .rows{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+    
+  }
+  .info{
+    
+    flex: 2;
+
+  }
+  
+  
+  .category{
+    flex: 3;
+
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    color: #666666 ;
+    padding:3px  6px;
+    font-size: 14px;
+  }
+  @media screen and (max-width:768px) {
+ nav ,.myfooter,.rows,.foot{
+  flex-direction: column !important;
+
+ }
+ .foot>p{
+  width: 90%;
+ }
+ .rows>div>h3{
+  text-align: center;
+ }
+ .lower{
+  display: none;
+ }
+ nav>div>p{
+  text-align: center;
+ }
+    .hero{
+      display:none;
+    }
+    .search{
+      width: 90%;
+    }
+    
+    .foottext{
+      width: 90%;
+    }
+    .social{
+      display: flex;
+    }
+    
+    
+
+
+  }
